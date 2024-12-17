@@ -1,3 +1,4 @@
+### Maven ###
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -36,3 +37,25 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Tomcat ###
+logs/
+work/
+temp/
+*.war
+*.log
+*.tmp
+*.bak
+**/tomcat/work/
+/tomcat/temp/
+/tomcat/logs/
+/tomcat/webapps/ROOT
+!webapps/*.war
+
+### Generated WAR and EAR files ###
+*.war
+*.ear
+
+### JetBrains IDE-specific Tomcat directories ###
+out/
+/.smarttomcat/WebAppCompanyManager/conf/catalina.policy
